@@ -1389,6 +1389,8 @@ img#wpstats {
 		font-size: 26px;
 		font-size: 1.857142857rem;
 		line-height: 1.846153846;
+		background: url(inc/anaheim-center.jpg);
+		background-position: center;
 	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
@@ -1396,7 +1398,6 @@ img#wpstats {
 		border-top: 1px solid #ededed;
 		display: inline-block !important;
 		text-align: left;
-		width: 100%;
 	}
 	.main-navigation ul {
 		margin: 0;
@@ -1518,8 +1519,8 @@ img#wpstats {
 	body .site {
 		padding: 0 40px;
 		padding: 0 2.857142857rem;
-		margin-top: 48px;
-		margin-top: 3.428571429rem;
+		margin-top: 0px;
+		margin-top: 0rem;
 		margin-bottom: 48px;
 		margin-bottom: 3.428571429rem;
 		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
@@ -1652,6 +1653,15 @@ img#wpstats {
 	}
 }
 
+/* Jon's modifications
+----------------------------------------------- */
+.sidebar-sponsor
+{
+	display:block; 
+	margin: 0 auto; 
+	margin-top: 5px;
+	box-shadow: none !important;
+}
 
 /* =IE 7 and 8
 ----------------------------------------------- */
